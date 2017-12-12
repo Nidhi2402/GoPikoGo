@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Application Settings">
+
+
+
+        <Preference
+            android:title="About"
+            android:summary="Game Information"
+            android:key="key_company_info"/>
+        <Preference
+            android:title="Interface"
+            android:summary="Options"
+            android:key="key_New_Activity"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

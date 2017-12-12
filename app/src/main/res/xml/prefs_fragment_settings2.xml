@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Application Settings">
+
+        <Preference
+            android:title="Gopikkago"
+            android:summary="Copyright 2016 Nidhi Patel"
+            android:selectable="false"/>
+
+        <Preference
+            android:title="Version"
+            android:summary="1.0"
+            android:selectable="false"/>
+
+        <Preference
+            android:title="Restart Game"
+            android:summary="It wil start from egg"
+            android:key="key_company_info"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Play Background Music"
+            android:key="key_music" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
